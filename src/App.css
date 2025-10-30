@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.input-section {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.number-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.submit-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.last-value {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #e9f7ef;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 400px;
+}
+
+.last-value h2 {
+  margin-top: 0;
+  color: #cacaca;
+}
+
+.history-section {
+  margin-top: 20px;
+  width: 80%;
+  max-width: 500px;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid red; 
+}
+
+.history-table th,
+.history-table td {
+  border: 1px solid red; 
+  padding: 10px;
+  text-align: center;
+}
+
+.history-table th {
+  background-color: #ffe6e6;
+  font-weight: bold;
+}
+
+.history-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.history-table tr:hover {
+  background-color: #f0f0f0;
+}
